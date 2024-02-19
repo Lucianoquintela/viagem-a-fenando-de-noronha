@@ -1,13 +1,13 @@
-import {SafeAreaView,Text,StyleSheet} from 'react-native'
+import {View,Text,StyleSheet} from 'react-native'
 
 
 export default function Title(){
   return(
-    <SafeAreaView>
+    <View>
       <Text style={styles.creditos}>2024 Fernando de Noronha Turismo</Text>
   
 
-    </SafeAreaView>
+    </View>
   )
 }
 
@@ -15,7 +15,8 @@ export default function Title(){
 const styles = StyleSheet.create({
   creditos: {
 
-   textAlign: 'center'
+   textAlign: 'center',
+   marginTop:10,
 },
 
 

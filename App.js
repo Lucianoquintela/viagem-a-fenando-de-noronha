@@ -8,10 +8,11 @@ import Footer from './components/Footer'
 export default function App(){
   return(
     <SafeAreaView>
-      <Title/>
-      <SubTitle/>
-      <Button/>
-      <Footer/>  
+      
+        <Title/>
+        <SubTitle/>
+        <Button/>
+        <Footer/>   
     </SafeAreaView>
   )
 }

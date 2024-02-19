@@ -1,13 +1,13 @@
-import {SafeAreaView,Text,StyleSheet} from 'react-native'
+import {View,Text,StyleSheet} from 'react-native'
 
 
 export default function Title(){
   return(
-    <SafeAreaView>
+    <View>
       <Text style={styles.botao}>Reserve sua Viagem</Text>
   
 
-    </SafeAreaView>
+    </View>
   )
 }
 
@@ -18,10 +18,16 @@ const styles = StyleSheet.create({
     backgroundColor: 'lightblue',
     color: 'blue',
     fontWeight: 'bold',
-    height: 45,
-    textAlign: 'center',
-    padding: 10,
+    height: 60,
+    fontSize: 22,
+    
+  
     margin: 10,
+  
+
+     
+   padding:14,
+   textAlign:'center',
 },
 
 

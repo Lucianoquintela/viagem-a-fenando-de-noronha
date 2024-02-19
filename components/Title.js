@@ -1,13 +1,13 @@
-import {SafeAreaView,Text,StyleSheet} from 'react-native'
+import {View,Text,StyleSheet} from 'react-native'
 
 
 export default function Title(){
   return(
-    <SafeAreaView>
+    <View>
       <Text style={styles.titulo}>Bem-vindo a Fernando de Noronha</Text>
       <Text style={styles.texto}>Descubra o paraíso das praias intocadas e águas cristalinas.</Text>
 
-    </SafeAreaView>
+    </View>
   )
 }
 
@@ -17,15 +17,23 @@ const styles = StyleSheet.create({
     backgroundColor: 'green',
     color: 'white',
     fontWeight: 'bold',
-    height: 60,
-    textAlign: 'center',
-    padding:17,
+    fontSize: 25,
+    height: 90,
+  
+   padding:10,
+   textAlign:'center',
+   
+   
+    
 },
 
  texto: {
     margin: 10,
     marginTop:-2,
-        marginBottom:20,
-  } 
+    marginBottom:20,
+
+  },
+
+
 
 })
